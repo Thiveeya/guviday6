@@ -13,8 +13,8 @@ class uber{
         
     }
         
-        get price(){
-        return this.perkm*this.numberinkm1
+        get(){
+        return ` total cost : ${this.perkm*this.numberinkm1}`
         }
 }
 
@@ -22,4 +22,4 @@ class uber{
 let uberprice=new uber('cars1','xylo','pasupathi','sumathi','25','250');
 
 console.log(uberprice);
-console.log (price());
+console.log(uberprice.get());
